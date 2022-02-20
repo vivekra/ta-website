@@ -35,12 +35,12 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Do you have free plan to encourage student to learn blockchain?",
+    answer: "Yes, we do support and encourage student to learn blockchain.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Do you provide blockchain node for building MVP?",
+    answer: "Yes, you can use our blockchain node as a service for building MVP."
   },
   {
     question: "What is your refund policy? ",
@@ -50,6 +50,6 @@ const faqdata = [
   {
     question: "Do you offer technical support? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "No, we don't offer technical support for free plan. Please purchase a support plan to get our expert support.",
   },
 ];

@@ -7,50 +7,50 @@ import {
   SunIcon,
 } from "@heroicons/react/outline";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/digital-credentials.jpg";
+import benefitTwoImg from "../public/img/digi-cred.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Blockchain Node as a Services",
+  desc: "TechArima offers blockchain enviornment for students for learning and practicing labs and also provide developer instance for developers for running the POC or projects in Blockchain.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Multi-Cloud and Multichain Platform",
+      desc: "Get your node and do hand-on with smart contract in Ethereum, Algorand and Hyperledger Fabric.",
       icon: <EmojiHappyIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Zero-code deployment",
+      desc: "Create nodes and set up consortia in just a few clicks.",
       icon: <ChartSquareBarIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Get Assistance",
+      desc: "Our highly qualified technical experts will help you to build Dapp and deploy a blockchain solutions",
       icon: <CursorClickIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Digital Credentials and Badges",
+  desc: "Our Digital Credentials Management Application helps Education Institutes, Training Providers, Academies, Universities, Companies to manage their credentials and badges and make their brand in digital presence.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Tamper Proof Digital Credentials and Documents",
+      desc: "You can generate Tamper proof certficates with Green Blockchain.",
       icon: <DeviceMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Issue Certificate in a bulk",
+      desc: "upload and generate certificate in a bulk in a hassle-free.",
       icon: <AdjustmentsIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Verify Certification",
+      desc: "No Thridparty is required for verification and able to check the credentials in our application. ",
       icon: <SunIcon />,
     },
   ],

@@ -15,8 +15,8 @@ export default function Benefits(props) {
           <div>
             <Image
               src={data.image}
-              width="521"
-              height="482"
+              width="768"
+              height="461"
               alt="Benefits"
               layout="intrinsic"
               placeholder="blur"
@@ -57,7 +57,7 @@ function Benefit(props) {
   return (
     <>
       <div className="flex items-start mt-8 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11 ">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-[#00519d] rounded-md w-11 h-11 ">
           {React.cloneElement(props.icon, {
             className: "w-7 h-7 text-indigo-50",
           })}
