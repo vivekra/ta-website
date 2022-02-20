@@ -107,13 +107,7 @@ export default function Footer() {
             rel="noopener">
             DigitalQ.
           </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.glazestock.com/"
-            target="_blank"
-            rel="noopener ">
-            Glazestock
-          </a>
+        
         </div>
       </Container>
       {/* Do not remove this */}
