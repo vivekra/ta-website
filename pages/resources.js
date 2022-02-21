@@ -24,7 +24,7 @@ import PopupWidget from "../components/popupWidget";
 
 // const PopupWidget = dynamic(() => import("../components/popupWidget"));
 
-export default function Home() {
+export default function Resources() {
   return (
     <>
       <Head>
@@ -37,8 +37,7 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <Hero />
-      <SectionTitle
+       <SectionTitle
         pretitle="TechArima Services"
         title="Blockchain Consulting">
          We provide Blockchain consulting and development services for startups and Companies.

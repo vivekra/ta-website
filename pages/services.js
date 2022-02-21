@@ -9,6 +9,8 @@ import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
+import Sta from "../components/sta";
+
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
@@ -31,18 +33,18 @@ export default function Services() {
         <title>TechArima - A Blockchain Company</title>
         <meta
           name="description"
-          content="TechArima - Made your future technology in blockchain and metaverse"
+          content="TechArima - Made your future in metaverse and blockchain"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
-      <Hero />
       <SectionTitle
         pretitle="TechArima Services"
         title="Blockchain Consulting">
          We provide Blockchain consulting and development services for startups and Companies.
       </SectionTitle>
+      <Sta />
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle

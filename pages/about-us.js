@@ -37,7 +37,7 @@ export default function Aboutus() {
       </Head>
 
       <Navbar />
-      <Hero />
+      
       <SectionTitle
         pretitle="TechArima Services"
         title="Blockchain Consulting">

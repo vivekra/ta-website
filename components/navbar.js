@@ -10,14 +10,12 @@ export default function Navbar() {
    { name: "Services", 
    path: "/services" 
   },
-  { name: "Resources", 
-    path: "/resources" 
-   },
+  
    { name: "About Us", 
     path: "/about-us" 
    },
    { name: "Blog", 
-    path: "/blog" 
+    path: "https://blog.arima.io" 
    },
  
 
@@ -72,9 +70,9 @@ export default function Navbar() {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} href="/">
+                      <Link key={index} href={item.path}>
                         <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#00519d] focus:text-white focus:bg-red-600 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
-                          {item}
+                          {item.name}
                         </a>
                       </Link>
                     ))}

@@ -5,13 +5,29 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Services",
-    "Resources",
-    "Company",
-    "Blog",
+    { name: "Product", 
+    path: "/product" 
+   },
+   { name: "Services", 
+   path: "/services" 
+  },
+  
+   { name: "About Us", 
+    path: "/about-us" 
+   },
+   { name: "Blog", 
+    path: "/blog" 
+   },
   ];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const legal = [ { name: "Terms", 
+  path: "/terms" 
+ },
+ { name: "Privacy", 
+ path: "/privacy" 
+},
+
+
+];
   return (
     <div className="relative">
       <Container>
@@ -45,9 +61,9 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/">
+                <Link key={index} href={item.path}>
                   <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#00519d] focus:text-[#00519d] focus:bg-[#00519d] focus:outline-none dark:focus:bg-trueGray-700">
-                    {item}
+                    {item.name}
                   </a>
                 </Link>
               ))}
@@ -56,9 +72,9 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/">
+                <Link key={index} href={item.path}>
                   <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                    {item}
+                    {item.name}
                   </a>
                 </Link>
               ))}
