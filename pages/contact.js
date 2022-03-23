@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
+import ContactForm from "../components/contactform";
+
 import SectionTitle from "../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../components/data";
@@ -24,11 +26,11 @@ import PopupWidget from "../components/popupWidget";
 
 // const PopupWidget = dynamic(() => import("../components/popupWidget"));
 
-export default function Aboutus() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>TechArima - A Blockchain Company</title>
+        <title>TechArima - A Blockchain Company| Contact Form</title>
         <meta
           name="description"
           content="TechArima - Made your future technology in blockchain and metaverse"
@@ -37,13 +39,8 @@ export default function Aboutus() {
       </Head>
 
       <Navbar />
+      <ContactForm />
       
-      <SectionTitle
-        pretitle="TechArima Services"
-        title="Blockchain Consulting">
-         We provide Blockchain consulting and development services for startups and Companies.
-      </SectionTitle>
-    
       <Footer />
       <PopupWidget />
     </>

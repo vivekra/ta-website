@@ -16,7 +16,7 @@ export default function Footer() {
     path: "/about-us" 
    },
    { name: "Blog", 
-    path: "/blog" 
+    path: "https://blog.arima.io" 
    },
   ];
   const legal = [ { name: "Terms", 
