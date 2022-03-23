@@ -38,20 +38,7 @@ export default function Product() {
 
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="TechArima Services"
-        title="Blockchain Consulting">
-         We provide Blockchain consulting and development services for startups and Companies.
-      </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Gain a knowledge"
-        title="Learn how to fullfil your needs">
-        We will be clarifiing all your queries, feel free to contact us.
-      </SectionTitle>
-      <Faq />
-      <Cta />
+     
       <Footer />
       <PopupWidget />
     </>
