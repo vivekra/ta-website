@@ -10,6 +10,8 @@ import aboutImg from "../public/img/about.jpg";
 import devImg from "../public/img/bgdev.png";
 import servImg from "../public/img/bgserv.png";
 import conImg from "../public/img/bgcon.png";
+import autoImg from "../public/img/bgauto.png";
+
 
 
 
@@ -57,8 +59,8 @@ export default function Services() {
               Services
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            TechArima - Provider of DLT solution development, NFT (Non-fungible Tokens), asset digitization, and end-to-end blockchain solution creation for businesses.
-            </p>
+            TechArima fabricated a worldwide standing for its capability to assist clients with accomplishing their business goals by giving innovative services.
+              </p>
 
          
           </div>
@@ -100,7 +102,9 @@ export default function Services() {
               Blockchain Consulting
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            TechArima - Provider of DLT solution development, NFT (Non-fungible Tokens), asset digitization, and end-to-end blockchain solution creation for businesses.
+            We believe in using the right technology for the problems at hand. Because technology advances so rapidly, keeping an open mind is critical.
+
+
             </p>
 
          
@@ -126,7 +130,7 @@ export default function Services() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={conImg}
+              src={autoImg}
               width="650"
               height="492"
               alt="Hero Illustration"
