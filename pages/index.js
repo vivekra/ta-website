@@ -83,7 +83,7 @@ export default function Home() {
         Blockchain Consulting
       </h1>
       <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-      TechArima - Provider of DLT solution development, NFT (Non-fungible Tokens), asset digitization, and end-to-end blockchain solution creation for businesses.
+      We assure you that our services will provide a secure, robust blockchain consulting service. We focus on design, architecture, migrations, deployment and managing business continuity for our customers
       </p>
 
    
@@ -101,8 +101,8 @@ export default function Home() {
               Web3 Development
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            TechArima - Provider of DLT solution development, NFT (Non-fungible Tokens), asset digitization, and end-to-end blockchain solution creation for businesses.
-            </p>
+            we are expertise in building a web3 decentralised application - dApps, NFT Marketplace for different blockchain, crosschain networks. 
+              </p>
 
          
           </div>
