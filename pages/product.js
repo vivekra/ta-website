@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
+import Prod from "../components/prod";
 import SectionTitle from "../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../components/data";
@@ -37,7 +38,7 @@ export default function Product() {
       </Head>
 
       <Navbar />
-      <Hero />
+      <Prod />
      
       <Footer />
       <PopupWidget />

@@ -39,8 +39,8 @@ export default function Aboutus() {
       <Navbar />
       
       <SectionTitle
-        pretitle="TechArima Services"
-        title="Blockchain Consulting">
+        pretitle="About US"
+        title="About US">
          We provide Blockchain consulting and development services for startups and Companies.
       </SectionTitle>
     
