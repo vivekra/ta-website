@@ -7,7 +7,10 @@ import Container from "../components/container";
 import Image from "next/image";
 import heroImg from "../public/img/bgavrm.png";
 import aboutImg from "../public/img/about.jpg";
-
+import womImg from "../public/img/bgavrm.png";
+import hrImg from "../public/img/bghrm.png";
+import autoImg from "../public/img/bgauto.png";
+import abImg from "../public/img/bgabout.png";
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -62,7 +65,7 @@ export default function Aboutus() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={autoImg}
               width="650"
               height="492"
               alt="Hero Illustration"
@@ -80,7 +83,7 @@ export default function Aboutus() {
       <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={hrImg}
               width="650"
               height="492"
               alt="Hero Illustration"
@@ -122,7 +125,7 @@ export default function Aboutus() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={abImg}
               width="650"
               height="492"
               alt="Hero Illustration"

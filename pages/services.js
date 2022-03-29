@@ -7,6 +7,10 @@ import Container from "../components/container";
 import Image from "next/image";
 import heroImg from "../public/img/bgavrm.png";
 import aboutImg from "../public/img/about.jpg";
+import devImg from "../public/img/bgdev.png";
+import servImg from "../public/img/bgserv.png";
+import conImg from "../public/img/bgcon.png";
+
 
 
 import { benefitOne, benefitTwo } from "../components/data";
@@ -62,7 +66,7 @@ export default function Services() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={devImg}
               width="650"
               height="492"
               alt="Hero Illustration"
@@ -80,7 +84,7 @@ export default function Services() {
       <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={servImg}
               width="650"
               height="492"
               alt="Hero Illustration"
@@ -122,7 +126,7 @@ export default function Services() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={conImg}
               width="650"
               height="492"
               alt="Hero Illustration"

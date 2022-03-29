@@ -11,6 +11,11 @@ import womImg from "../public/img/bgeth.png";
 
 import hrImg from "../public/img/bghrm.png";
 
+import conImg from "../public/img/bgcon.png";
+import vrmImg from "../public/img/bgavrm.png";
+
+import comImg from "../public/img/bgcom.png";
+
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -62,7 +67,7 @@ export default function Home() {
 <div className="flex items-center justify-center w-full lg:w-1/2">
     <div className="">
       <Image
-        src={hrImg}
+        src={vrmImg}
         width="650"
         height="492"
         alt="Hero Illustration"
@@ -105,7 +110,7 @@ export default function Home() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={womImg}
+              src={comImg}
               width="650"
               height="492"
               alt="Hero Illustration"
