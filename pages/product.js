@@ -39,7 +39,15 @@ export default function Product() {
 
       <Navbar />
       <Prod />
-     
+      <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} />
+      <SectionTitle
+        pretitle="Gain a knowledge"
+        title="Learn how to fullfil your needs">
+        We will be clarifiing all your queries, feel free to contact us.
+      </SectionTitle>
+      <Faq />
+      <Cta />   
       <Footer />
       <PopupWidget />
     </>

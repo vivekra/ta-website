@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Container from "./container";
-import Nfta from "../components/nfta";
-import heroImg from "../public/img/bgdocs.png";
+import Nfta from "./nfta";
+import heroImg from "../public/img/bgavrm.png";
 
-export default function Product() {
+export default function Prod() {
   return (
     <>
           <Container className="flex flex-wrap ">
