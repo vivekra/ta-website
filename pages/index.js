@@ -101,7 +101,7 @@ export default function Home() {
               Web3 Development
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            we are expertise in building a web3 decentralised application - dApps, NFT Marketplace for different blockchain, crosschain networks. 
+            We are expertise in building a web3 decentralised application - dApps, NFT Marketplace for different blockchain, crosschain networks. 
               </p>
 
          
