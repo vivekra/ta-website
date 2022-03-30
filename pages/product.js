@@ -39,8 +39,9 @@ export default function Product() {
 
       <Navbar />
       <Prod />
-      <Benefits data={benefitOne} />
+      
       <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits data={benefitOne} />
       <SectionTitle
         pretitle="Gain a knowledge"
         title="Learn how to fullfil your needs">
