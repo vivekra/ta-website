@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/hero";
+import Roadmap from "../components/timeline";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
@@ -122,7 +123,7 @@ export default function Home() {
         </div>
       </Container>
 
-
+      <Roadmap />
 
 
       <Footer />
