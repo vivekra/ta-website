@@ -13,16 +13,16 @@ export default function Hero() {
               Create your Own Digital World
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            TechArima - Provider of DLT solution development, NFT (Non-fungible Tokens), asset digitization, and end-to-end blockchain solution creation for businesses.
+            Digitize your Credentials, Arts and Crafts, All that you need a genuine token.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://arima.io"
+                href="https://pmny.in/6IZfzubjrx7Q"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-red-600 rounded-md ">
-                Products
+                Buy Arima
               </a>
            
             </div>
@@ -48,4 +48,4 @@ export default function Hero() {
     </>
   );
 }
-
+  
