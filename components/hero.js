@@ -2,6 +2,7 @@ import Image from "next/image";
 import Container from "./container";
 import Nfta from "../components/nfta";
 import heroImg from "../public/img/bgmeta.png";
+import devImg from "../public/img/bgdev.png";
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
               Create your Own Digital World
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            Digitize your Credentials, Arts and Crafts, All that you need a genuine token.
+            Digitize your Credentials, Arts and Crafts, All that you need a platform with a genuine token.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -31,7 +32,8 @@ export default function Hero() {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              //src={heroImg}
+              src={devImg}
               width="650"
               height="492"
               alt="Hero Illustration"
