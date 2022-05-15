@@ -104,7 +104,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="https://pmny.in/6IZfzubjrx7Q">
+          <Link href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=607120057">
             <a className="px-6 py-2 text-white bg-[#00519D] rounded-md md:ml-5">
               Get Started
             </a>
