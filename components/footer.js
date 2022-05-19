@@ -5,8 +5,8 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    { name: "Product", 
-    path: "/product" 
+    { name: "Products", 
+    path: "/products" 
    },
    { name: "Services", 
    path: "/services" 

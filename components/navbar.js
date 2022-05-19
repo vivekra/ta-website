@@ -4,8 +4,8 @@ import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
   const navigation = [
-    { name: "Product", 
-    path: "/product" 
+    { name: "Products", 
+    path: "/products" 
    },
    { name: "Services", 
    path: "/services" 
