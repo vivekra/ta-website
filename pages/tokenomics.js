@@ -41,15 +41,7 @@ export default function Tokenomics() {
       <Navbar />
       <Token />
       
-      <Benefits imgPos="right" data={benefitTwo} />
-      <Benefits data={benefitOne} />
-      <SectionTitle
-        pretitle="Gain a knowledge"
-        title="Learn how to fullfil your needs">
-        We will be clarifiing all your queries, feel free to contact us.
-      </SectionTitle>
-      <Faq />
-      <Cta />   
+        
       <Footer />
       <PopupWidget />
     </>

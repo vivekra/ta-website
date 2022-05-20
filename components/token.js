@@ -22,8 +22,14 @@ const data = {
 		'#36A2EB',
 		'#FFCE56'
 		]
-	}]
+	}],
+	
+	
 };
+
+
+
+ 
 
 export default function Token() {
   return (
