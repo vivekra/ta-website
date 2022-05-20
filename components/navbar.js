@@ -4,15 +4,15 @@ import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
   const navigation = [
-    { name: "Product", 
-    path: "/product" 
+    { name: "Tokenomics", 
+    path: "/tokenomics" 
    },
-   { name: "Services", 
-   path: "/services" 
+   { name: "Marketplace", 
+   path: "https://digitalq.io" 
   },
   
    { name: "About Us", 
-    path: "/about-us" 
+    path: "https://techarima.com/about-us" 
    },
    { name: "Blog", 
     path: "https://blog.arima.io" 
@@ -106,7 +106,7 @@ export default function Navbar() {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=607120057">
             <a className="px-6 py-2 text-white bg-[#00519D] rounded-md md:ml-5">
-              Get Started
+              Swap Arima
             </a>
           </Link>
 

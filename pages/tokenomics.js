@@ -12,6 +12,7 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import Token  from "../components/token";
 
 //import dynamic from "next/dynamic";
 
@@ -25,7 +26,7 @@ import PopupWidget from "../components/popupWidget";
 
 // const PopupWidget = dynamic(() => import("../components/popupWidget"));
 
-export default function Product() {
+export default function Tokenomics() {
   return (
     <>
       <Head>
@@ -38,7 +39,7 @@ export default function Product() {
       </Head>
 
       <Navbar />
-      <Prod />
+      <Token />
       
       <Benefits imgPos="right" data={benefitTwo} />
       <Benefits data={benefitOne} />

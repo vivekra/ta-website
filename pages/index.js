@@ -44,10 +44,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TechArima - A Blockchain Company</title>
+        <title>Arima - A Blockchain Company</title>
         <meta
           name="description"
-          content="TechArima - Made your future technology in blockchain and metaverse"
+          content="Arima - Get Delight in blockchain and metaverse"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

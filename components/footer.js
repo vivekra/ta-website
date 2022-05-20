@@ -5,15 +5,15 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    { name: "Product", 
-    path: "/product" 
+    { name: "Products", 
+    path: "https://techarima.com/products" 
    },
    { name: "Services", 
-   path: "/services" 
+   path: "https://techarima.com/services" 
   },
   
    { name: "About Us", 
-    path: "/about-us" 
+    path: "https://techarima.com/about-us" 
    },
    { name: "Blog", 
     path: "https://blog.arima.io" 
@@ -84,7 +84,7 @@ export default function Footer() {
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://twitter.com/techarima"
+                href="https://twitter.com/arima_io"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Twitter</span>
