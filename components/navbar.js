@@ -78,7 +78,7 @@ export default function Navbar() {
                     ))}
                     <Link href="https://arima.io">
                       <a className="w-full px-6 py-2 mt-3 text-center text-white bg-[#00519d] rounded-md lg:ml-5">
-                        Get Started
+                        Connect
                       </a>
                     </Link>
                   </>
@@ -106,7 +106,7 @@ export default function Navbar() {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=607120057">
             <a className="px-6 py-2 text-white bg-[#00519D] rounded-md md:ml-5">
-              Swap Arima
+              Connect
             </a>
           </Link>
 
