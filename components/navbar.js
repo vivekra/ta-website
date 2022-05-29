@@ -4,11 +4,11 @@ import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
   const navigation = [
-    { name: "Tokenomics", 
-    path: "/tokenomics" 
+    { name: "Products", 
+    path: "/products" 
    },
-   { name: "Marketplace", 
-   path: "https://digitalq.io" 
+   { name: "Courses", 
+   path: "/courses" 
   },
   
    { name: "About Us", 
@@ -33,7 +33,7 @@ export default function Navbar() {
                   <a className="flex items-center space-x-2 text-2xl font-medium text-[#00519d] dark:text-gray-100">
                     <span>
                       <img
-                        src="/img/techarima.svg"
+                        src="/img/talentegra.svg"
                         alt="N"
                         width="200"
                         height="200"

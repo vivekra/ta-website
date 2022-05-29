@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Arima - A Blockchain Company</title>
+        <title>Talentegra - An Education Consulting Company</title>
         <meta
           name="description"
           content="Arima - Get Delight in blockchain and metaverse"
